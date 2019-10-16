@@ -1,3 +1,22 @@
+
+
+
+2019-10-16,13点54
+
+打算使用这个别人实现的英德翻译,
+改成zhongwen文件夹里面的中英翻译.
+
+
+
+
+
+
+
+
+
+
+
+
 # **[UPDATED]** A TensorFlow Implementation of [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 When I opened this repository in 2017, there was no official code yet.
