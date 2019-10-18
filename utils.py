@@ -154,6 +154,7 @@ def calc_bleu(ref, translation):
 
     Returns
     translation that the bleu score is appended to'''
+    #用perl语言来计算的bleu
     get_bleu_score = "perl multi-bleu.perl {} < {} > {}".format(ref, translation, "temp")
     os.system(get_bleu_score)
     bleu_score_report = open("temp", "r").read()

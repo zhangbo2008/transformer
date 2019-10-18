@@ -9,14 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
 # **[UPDATED]** A TensorFlow Implementation of [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 When I opened this repository in 2017, there was no official code yet.

@@ -38,7 +38,7 @@ def load_data(fpath1, fpath2, maxlen1, maxlen2):
     sents2: list of target sents
     '''
     sents1, sents2 = [], []
-    with open(fpath1, 'r') as f1, open(fpath2, 'r') as f2:
+    with open(fpath1, 'r') as f1, open(fpath2, 'r') as f2:#同时开2个文件
         for sent1, sent2 in zip(f1, f2):
             if len(sent1.split()) + 1 > maxlen1: continue # 1: </s>
             if len(sent2.split()) + 1 > maxlen2: continue  # 1: </s>
